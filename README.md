@@ -15,11 +15,11 @@ This repository hosts a FastAPI API that serves predictions from a trained sciki
 ### Python Libraries
 
 Dependencies are pinned in `requirements.txt`:
-  fastapi==0.111.0
-  uvicorn==0.30.6
-  scikit-learn==1.4.1.post1
-  joblib==1.5.0
-  pandas==2.2.3
+  - fastapi==0.111.0
+  - uvicorn==0.30.6
+  - scikit-learn==1.4.1.post1
+  - joblib==1.5.0
+  - pandas==2.2.3
 
 
 ---
@@ -27,11 +27,17 @@ Dependencies are pinned in `requirements.txt`:
 ## 📁 Repository Structure
 
 repo/
+
 ├─ app.py # FastAPI app
+
 ├─ model.pkl # Trained model
+
 ├─ requirements.txt # Python dependencies
+
 ├─ Dockerfile # Optional, for Docker deployment
+
 ├─ Procfile # Optional, for non-Docker deployment
+
 └─ README.md
 
 
