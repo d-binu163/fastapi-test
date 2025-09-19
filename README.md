@@ -1,6 +1,7 @@
 # FastAPI ML Model Deployment on Render
 
 This repository hosts a FastAPI API that serves predictions from a trained scikit-learn model. The API exposes a `/predict` endpoint that accepts JSON input and returns predictions.
+- Please NOTE: This repository is purely for experimental purposes. Everything and anything done here is to test different applications. Hence, it shall be deleted later.
 
 ---
 
